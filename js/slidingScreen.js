@@ -11,7 +11,7 @@ $(function() {
     if(lock){
       nowpage=nowpage-delta;
       if(nowpage<0){nowpage=0;}
-      if(nowpage>5){nowpage=5;}
+      if(nowpage>3){nowpage=3;}
        donghua();
       lock=false;
       setTimeout(function  () {
@@ -22,7 +22,7 @@ $(function() {
   })
   $('.nav ul li').click(function(event) {
     nowpage=$(this).index();
-    if(nowpage<=5){donghua();}
+    if(nowpage<=3){donghua();}
   });
   $('.dian ul li').click(function(event) {
     nowpage=$(this).index();
