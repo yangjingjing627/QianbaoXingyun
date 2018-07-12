@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" type="text/css" href="css/default.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/circle.css">
 <link rel="stylesheet" media="screen" href="css/style.css">
 
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
@@ -32,7 +33,22 @@
 <div class="page current relative" id="particles-js">
   <p class="absolute logo">钱包星云</p>
 </div>
-<div class="page page1">1</div>
+<div class="page page1">
+	<div class="circle">
+		<div class="c-circle first">
+			<p>利用children来获取子元素是最方便的，他也会返回出一个数组</p>
+		</div>
+		<div class="c-circle second">
+			<p>利用children来获取子元素是最方便的，他也会返回出一个数组</p>
+		</div>
+		<div class="c-circle third">
+			<p>利用children来获取子元素是最方便的，他也会返回出一个数组</p>
+		</div>
+		<div class="c-circle four">
+			<p>利用children来获取子元素是最方便的，他也会返回出一个数组</p>
+		</div>
+	</div>
+</div>
 <div class="page page2">2</div>
 <div class="page page3">3</div>
 <div class="page page4">4</div>
@@ -61,7 +77,6 @@
 <script src="js/app.js"></script>
 <script type="text/javascript">
 function download2() {
-	console.log('--------------');
 		var $form = $('<form method="GET"></form>');
 		$form.attr('action', './static/星云白皮书.pdf');
 		$form.appendTo($('body'));
