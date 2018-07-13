@@ -9,7 +9,6 @@ $(function() {
     $('.dian ul li').eq(nowpage).addClass('da').siblings().removeClass('da');
     $('.nav ul li').eq(nowpage).addClass('bg').siblings().removeClass('bg');
     if (nowpage === 2) {
-      console.log('这是第三页');
       $page2Main.addClass('page2-animate')
     } else {
       setTimeout(removeClass, 100);

@@ -46,31 +46,31 @@
 /* page2祝内容延时进入页面 */
 .page2-animate li:nth-child(1) .before-animate {
   display: block;
-  -webkit-animation: toRight 5s ease-in-out 0s 1 alternate forwards;
+  -webkit-animation: toRight 1s ease-in-out 0s 1 alternate forwards;
 }
 .page2-animate li:nth-child(2) .before-animate {
   display: block;
-  -webkit-animation: toRight 5s ease-in-out 0.5s 1 alternate forwards;
+  -webkit-animation: toRight 1s ease-in-out 0.5s 1 alternate forwards;
 }
 .page2-animate li:nth-child(3) .before-animate {
   display: block;
-  -webkit-animation: toRight 5s ease-in-out 1s 1 alternate forwards;
+  -webkit-animation: toRight 1s ease-in-out 1s 1 alternate forwards;
 }
 .page2-animate li:nth-child(4) .before-animate {
   display: block;
-  -webkit-animation: toRight 5s ease-in-out 1.5s 1 alternate forwards;
+  -webkit-animation: toRight 1s ease-in-out 1.5s 1 alternate forwards;
 }
 .page2-animate li:nth-child(5) .before-animate {
   display: block;
-  -webkit-animation: toRight 5s ease-in-out 2s 1 alternate forwards;
+  -webkit-animation: toRight 1s ease-in-out 2s 1 alternate forwards;
 }
 .page2-animate li:nth-child(6) .before-animate {
   display: block;
-  -webkit-animation: toRight 5s ease-in-out 2.5s 1 alternate forwards;
+  -webkit-animation: toRight 1s ease-in-out 2.5s 1 alternate forwards;
 }
 .page2-animate li:nth-child(7) .before-animate {
   display: block;
-  -webkit-animation: toRight 5s ease-in-out 3s 1 alternate forwards;
+  -webkit-animation: toRight 1s ease-in-out 3s 1 alternate forwards;
 }
 
 .before-animate h1 {

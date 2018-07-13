@@ -15,6 +15,7 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
 body {
   /*font-family: BASE;*/
   font-size: 14px;
+  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -122,4 +123,10 @@ textarea {
 }
 .lineheight50 {
   line-height: 50px;
+}
+.fw300 {
+  font-weight: 300;
+}
+.fw400 {
+  font-weight: 400;
 }
