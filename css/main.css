@@ -13,7 +13,7 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
 }
 
 body {
-  font-family: BASE;
+  /*font-family: BASE;*/
   font-size: 14px;
 }
 
@@ -89,6 +89,12 @@ textarea {
 .w1100 {
   width: 1100px;
   margin: 0 auto;
+}
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
 }
 .mt10 {
   margin-top: 10px;

@@ -53,7 +53,7 @@ body, html {
 }
 
 .dian {
-  position: absolute;
+  position: fixed;
   right: 20px;
   top: 50%;
   text-align: center;
@@ -107,6 +107,8 @@ body, html {
   margin: 15px 5px;
   padding: 0 60px;
   cursor: pointer;
+  opacity: 0.5;
+  filter: opacity(alpha=50);
   text-align: center;
   line-height: 30px;
   color: #fff;
@@ -125,8 +127,26 @@ body, html {
 }
 
 .nav .bg {
-  /*border-bottom: 4px solid #EF0000;*/
-  color: red;
+  opacity: 1;
+  filter: opacity(alpha=100);
+}
+.page2-con {
+  width: 270px;
+  padding: 40px 35px;
+  position: absolute;
+  left: 15%;
+  top: 22%;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #141A34;
+}
+.page2-title {
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.page2-content {
+  font-size: 14px;
+  line-height: 30px;
 }
 .bg-sglobal {
   position: absolute;
