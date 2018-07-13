@@ -115,10 +115,10 @@ body, html {
   font-size: 16px;
 }
 
-.nav li:nth-child(2n+1) {
+/*.nav li:nth-child(2n+1) {
   border-right: 1px solid #FFFFFF;
   box-sizing: border-box;
-}
+}*/
 
 .nav li a {
   width: 100px;
@@ -130,7 +130,7 @@ body, html {
   opacity: 1;
   filter: opacity(alpha=100);
 }
-.page2-con {
+.page1-con {
   width: 270px;
   padding: 40px 35px;
   position: absolute;
@@ -140,11 +140,11 @@ body, html {
   color: #fff;
   background-color: #141A34;
 }
-.page2-title {
+.page1-title {
   line-height: 30px;
   margin-bottom: 30px;
 }
-.page2-content {
+.page1-content {
   font-size: 14px;
   line-height: 30px;
 }
