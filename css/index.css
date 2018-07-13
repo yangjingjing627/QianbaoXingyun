@@ -28,15 +28,9 @@ a {
 }
 
 .page3 {
-  background: green;
-}
+  /*background: grey url('../img/personbg.png') no-repeat center;*/
+  background: grey url('../img/bgf.png') no-repeat center;
 
-.page4 {
-  background: cyan;
-}
-
-.page5 {
-  background: blue;
 }
 
 .containter {
