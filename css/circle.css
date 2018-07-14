@@ -20,9 +20,9 @@
   border-radius: 100%;
   position: absolute;
   transform-origin: center center;
-  animation: circle 30s linear infinite;
   background: url('../img/global2.png') no-repeat center;
   background-size: 100% 100%;
+  animation: circle 30s linear infinite;
 }
 
 .c-circle p{
@@ -47,6 +47,9 @@
   height: 80px;
   left: 40px;
   top: 250px;
+  z-index: 1;
+  background: url('../img/point.png') no-repeat center;
+  background-size: 27px 27px;
 }
 
 .second p{
@@ -59,6 +62,9 @@
   height: 50px;
   left: 40px;
   top: 50px;
+  z-index: 1;
+  background: url('../img/point.png') no-repeat center;
+  background-size: 27px 27px;
 }
 
 .third p{
@@ -69,8 +75,11 @@
 .circle .third:after {
   width: 80px;
   height: 80px;
-  left: 250px;
+  left: 263px;
   top: 50px;
+  z-index: 1;
+  background: url('../img/point.png') no-repeat center;
+  background-size: 27px 27px;
 }
 
 .four p{
@@ -81,8 +90,11 @@
 .circle .four:after {
   width: 60px;
   height: 60px;
-  left: 255px;
+  left: 263px;
   top: 250px;
+  z-index: 1;
+  background: url('../img/point.png') no-repeat center;
+  background-size: 27px 27px;
 }
 
 @keyframes circle {

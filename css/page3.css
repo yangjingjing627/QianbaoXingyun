@@ -1,4 +1,4 @@
-.page3 p:nth-child(1) {
+.page3 .intro {
   padding-top: 12%;
   font-weight: 300;
 }
@@ -44,7 +44,6 @@
 .abs {
   position: absolute;
   top: 0;
-  left: 0;
   left: -100%;
   width: 100%;
   height: 100%;
