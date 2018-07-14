@@ -1,6 +1,7 @@
 .page3 .intro {
   padding-top: 12%;
   font-weight: 300;
+  /*animation: leftRight 25s linear infinite;*/
 }
 .page3-con {
   display: flex;
@@ -115,5 +116,24 @@
     -moz-opacity: 1;
     -khtml-opacity: 1;
     opacity: 1;
+  }
+}
+@keyframes leftRight {
+  20% {
+    transform: translate(30px, 0) scale(.7);
+    opacity: 1;
+    color: tan;
+  }
+  60% {
+    color: #fff;
+  }
+  80% {
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+    color: red;
   }
 }
