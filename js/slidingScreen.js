@@ -18,7 +18,6 @@ $(function() {
 		$page2Main.removeClass('page2-animate');
 	}
   $(document).mousewheel(function (event,delta) {
-    console.log('-----delta = ' + delta);
     if(lock){
       nowpage=nowpage-delta;
       if(nowpage<0){nowpage=0;}

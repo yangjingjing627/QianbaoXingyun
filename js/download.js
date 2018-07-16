@@ -4,5 +4,4 @@ function download2() {
     $form.attr('action', '/download/papers/1');
     $form.appendTo($('body'));
     $form.submit();
-    console.log('--------------');
 }
