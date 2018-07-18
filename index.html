@@ -140,7 +140,7 @@
 </div>
 <div class="page page3">
 	<div class="w1200">
-		<p class='text-center white f36 fw300 intro'>团队介绍</p>
+		<p class='text-center white f36 fw300 intro' id="getPdf">团队介绍</p>
 		<p class='text-center white f24 fw300'>OUR TEAM</p>
 		<div class='page3-con'>
 			<div class='flex'>
@@ -210,5 +210,11 @@
 
 <!-- 鼠标移入效果 -->
 <script src="js/mouse.hover.js" charset="utf-8"></script>
+<script src="js/download.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$('#getPdf').on('click', function() {
+		downloadFile('QOS白皮书', 'static/qos.pdf')
+	})
+</script>
 </body>
 </html>
