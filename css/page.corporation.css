@@ -15,6 +15,19 @@
   background:  url('../img/connection.png') no-repeat center;
   background-size: 611px 80px;
 }
+.subtitle {
+  position: relative;
+}
+.subtitle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #EF0000;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .logo1 {
   width: 620px;
   height: 52px;

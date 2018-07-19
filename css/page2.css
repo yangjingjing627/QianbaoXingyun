@@ -1,6 +1,5 @@
 .page2-w1200 {
-  background: url('../img/licheng.png') no-repeat center 144px;
-  background-size: 421px 60px;
+  background: url('../img/licheng.png') no-repeat center 104px;
 }
 .page2-circle {
   width: 40%;
@@ -17,7 +16,7 @@
 }
 .page2-logo {
   position: absolute;
-  left: 16%;
+  left: 30%;
   top: 27%;
 }
 .page2-logo p:nth-child(2) {
@@ -87,6 +86,7 @@
 .mtb {
   margin-top: 30px;
   margin-bottom: 10px;
+  font-size: 24px;
 }
 
 .page2-con li:last-child {
