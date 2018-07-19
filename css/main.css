@@ -15,7 +15,7 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
 body {
   /*font-family: BASE;*/
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -138,4 +138,10 @@ textarea {
 }
 .fw400 {
   font-weight: 400;
+}
+.flex {
+  display: flex;
+}
+.flex_1{
+  flex: 1;
 }
