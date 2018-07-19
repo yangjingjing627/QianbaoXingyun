@@ -9,9 +9,10 @@
   color: #fff;
 }
 .page3-con .flex {
-  flex: 1;
+  width: 239px;
   height: 287px;
-  margin: 0 30px;
+  /*margin: 0 30px;*/
+  margin: 0 auto;
   background:  url('../img/personbg.png') no-repeat center;
   background-size: 100% 100%;
   position: relative;
