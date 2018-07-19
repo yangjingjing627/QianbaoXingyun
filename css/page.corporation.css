@@ -1,0 +1,48 @@
+.corporation {
+  height: 960px;
+  background: #fff;
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+}
+.corporation-title {
+  padding: 100px 0 83px;
+  height: 80px;
+  background:  url('../img/partner.png') no-repeat center;
+  background-size: 584px 80px;
+}
+.connection {
+  background:  url('../img/connection.png') no-repeat center;
+  background-size: 611px 80px;
+}
+.logo1 {
+  width: 620px;
+  height: 52px;
+  margin: 50px auto 75px;
+  background:  url('../img/logo1.png') no-repeat center;
+  background-size: contain;
+}
+.logo2 {
+  background:  url('../img/logo2.png') no-repeat center;
+}
+.logo3 {
+  height: 102px;
+  margin-top: 50px;
+  background:  url('../img/logo31.png') no-repeat center;
+}
+.copyright {
+  background: #001429;
+  color: #fff;
+  text-align: left;
+  padding: 35px 0 50px;
+  font-size: 12px;
+}
+.w420 {
+  width: 430px;
+  height: 53px;
+  margin: 0 auto;
+  background:  url('../img/copyright.png') no-repeat left top;
+  background-size: 37px 53px;
+  padding-left: 70px;
+  line-height: 24px;
+}

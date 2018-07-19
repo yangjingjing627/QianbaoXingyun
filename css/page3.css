@@ -1,11 +1,18 @@
 .page3 .intro {
-  padding-top: 12%;
+  padding-top: 100px;
   font-weight: 300;
+  background:  url('../img/team.png') no-repeat center;
   /*animation: leftRight 25s linear infinite;*/
+}
+.adviser {
+  padding-top: 100px;
+  margin-top: 100px;
+  font-weight: 300;
+  background:  url('../img/adviser.png') no-repeat center;
 }
 .page3-con {
   display: flex;
-  margin-top: 8%;
+  margin-top: 50px;
   color: #fff;
 }
 .page3-con .flex {
