@@ -11,9 +11,93 @@
   background:  url('../img/partner.png') no-repeat center;
   background-size: 584px 80px;
 }
+.connect-email {
+  height: 560px;
+  font-size: 14px;
+  color: #fff;
+}
+.clearfloat .l,.clearfloat .r {
+  float: left;
+  /*width: 400px;*/
+  text-align: left;
+}
+.clearfloat .l {
+  margin-left: 200px;
+}
+.l li{
+  padding-left: 32px;
+  padding-bottom: 30px;
+}
+.ico1 {
+  background:  url('../img/guanwang.png') no-repeat left top;
+  background-size: 20px 20px;
+}
+.ico2 {
+  background:  url('../img/mail.png') no-repeat left top;
+  background-size: 20px 20px;
+}
+.ico3 {
+  background:  url('../img/Twitter.png') no-repeat left top;
+  background-size: 20px 20px;
+}
+.ico4 {
+  background:  url('../img/blog.png') no-repeat left top;
+  background-size: 20px 20px;
+}
+.ico5 {
+  background:  url('../img/facebook.png') no-repeat left top;
+  background-size: 20px 20px;
+}
+.ico6 {
+  margin-bottom: 70px;
+  background:  url('../img/Telegram.png') no-repeat left top;
+  background-size: 20px 20px;
+}
+.c {
+  float: left;
+  width: 1px;
+  height: 221px;
+  margin-left: 60px;
+  background: rgba(255, 255, 255, 0.33);
+
+}
+.r li {
+  float: left;
+}
+.ecode p:nth-child(2) {
+  width: 209px;
+  text-align: center;
+  margin: 14px 0 0 109px;
+}
+.ecode p:nth-child(1){
+  width: 209px;
+  height: 208px;
+  background:  url('../img/ecode.png') no-repeat center;
+  background-size: 209px 208px;
+  margin: 0 38px 0 109px;
+}
+
+.f12 {
+  font-size: 12px;
+}
+.wechat {
+  padding-top: 100px;
+}
+.wechat p {
+  margin-top: 13px;
+}
+.wechat p:nth-child(1) {
+  padding-left: 28px;
+  background:  url('../img/wechat.png') no-repeat left center;
+  background-size: 20px 20px;
+}
 .connection {
   background:  url('../img/connection.png') no-repeat center;
   background-size: 611px 80px;
+}
+.connect-main {
+  width: 1200px;
+  margin: 0 auto;
 }
 .subtitle {
   position: relative;
@@ -44,11 +128,13 @@
   background:  url('../img/logo31.png') no-repeat center;
 }
 .copyright {
+  /*border-top: 1px solid rgba(255, 255, 255, 0.5)*/
   background: #001429;
   color: #fff;
   text-align: left;
   padding: 35px 0 50px;
   font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5)
 }
 .w420 {
   width: 430px;
