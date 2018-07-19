@@ -1,0 +1,43 @@
+.page-scene {
+  height: 780px;
+  background: #fff url('../img/scene.png') no-repeat center top;
+  background-size: 100% 500px;
+}
+.scene {
+  /*margin-top: 200px;*/
+}
+.scene>div {
+  width: 294px;
+  height: 480px;
+  margin: 210px auto 0;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 2px 11px rgba(0,0,0,0.7);
+}
+.scene-img {
+  height: 182px;
+  margin-bottom: 20px;
+}
+.xiaofei {
+  background: #fff url('../img/xiaofei.png') no-repeat center;
+  background-size: cover;
+}
+.xindai {
+  background: #fff url('../img/xindai.png') no-repeat center;
+  background-size: cover;
+}
+.meiti {
+  background: #fff url('../img/mouti.png') no-repeat center;
+  background-size: cover;
+}
+.scene-title {
+  font-size: 16px;
+  color: #333;
+  padding: 0 26px;
+}
+.scene-intro {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  padding: 0 26px;
+}
