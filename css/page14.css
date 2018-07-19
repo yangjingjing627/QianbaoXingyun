@@ -1,0 +1,26 @@
+
+.h155 {
+  height: 155px;
+  background-color: #fff;
+}
+.page14 {
+  height: 720px;
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+  font-size: 20px;
+  line-height: 30px;
+}
+.page14-line {
+  width: 90px;
+  height: 4px;
+  margin: 0 auto 26px;
+  background: #000;
+}
+.page14-bg {
+  width: 1045px;
+  height: 414px;
+  margin: 50px auto 40px;
+  background: url('../img/hd.png') no-repeat center;
+  background-size: contain;
+}
