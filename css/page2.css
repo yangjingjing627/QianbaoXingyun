@@ -1,3 +1,7 @@
+.page2-w1200 {
+  background: url('../img/licheng.png') no-repeat center 144px;
+  background-size: 421px 60px;
+}
 .page2-circle {
   width: 40%;
   height: 40%;
