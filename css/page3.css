@@ -67,7 +67,10 @@
   padding: 30px 38px;
   box-sizing: border-box;
   font-size: 14px;
-  color: #E6E6E9
+  color: #E6E6E9;
+}
+.profile p {
+  line-height: 20px;
 }
 .page3-ani-right {
   -webkit-animation: toRight 0.5s ease-in-out 0s 1 alternate forwards;

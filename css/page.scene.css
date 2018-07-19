@@ -4,15 +4,26 @@
   background-size: 100% 580px;
 }
 .scene {
-  /*margin-top: 200px;*/
+  position: relative;
 }
+.scene .st {
+  position: absolute;
+  top: -130px;
+  left: 50%;
+  width: 566px;
+  height: 90px;
+  transform: translateX(-50%);
+  background: url('../img/shengtai.png') no-repeat center top;
+  /*background-size: 566px 90px;*/
+}
+
 .scene>div {
   width: 294px;
   height: 480px;
   margin: 210px auto 0;
   background: #fff;
   text-align: center;
-  box-shadow: 0px 2px 11px rgba(0,0,0,0.7);
+  box-shadow: 0px 0px 57px rgba(0,0,0,0.1);
 }
 .scene-img {
   height: 182px;
@@ -31,7 +42,7 @@
   background-size: cover;
 }
 .scene-title {
-  font-size: 16px;
+  font-size: 14px;
   color: #333;
   padding: 0 26px;
 }
@@ -40,4 +51,5 @@
   color: #666;
   margin-top: 20px;
   padding: 0 26px;
+  line-height: 24px;
 }

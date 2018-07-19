@@ -20,7 +20,7 @@ a {
 }
 .page {
   width: 100%;
-  height: 80%;
+  height: 90%;
   background: url('../img/bg1.png') no-repeat center;
   background-size: 100% 100%;
 }
@@ -95,7 +95,7 @@ body, html {
 }
 
 .nav ul {
-  width: 500px;
+  width: 300px;
   margin: 0 auto;
   float: right;
   /*padding-left: 200px;*/
@@ -150,7 +150,6 @@ body, html {
   top: 0%;
   box-sizing: border-box;
   color: #fff;
-  position: relative;
 }
 .page1-opac {
   width: 100%;
@@ -168,14 +167,14 @@ body, html {
   width: 51px;
   height: 7px;
   left: 40%;
-  top: 100px;
+  top: 130px;
 }
 .page1-content {
   position: absolute;
   font-size: 16px;
   line-height: 28px;
   left: 40%;
-  top: 140px;
+  top: 170px;
   width: 255px;
 }
 .bg-sglobal {
