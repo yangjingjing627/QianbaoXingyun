@@ -113,14 +113,15 @@
   transform: translateX(-50%);
 }
 .logo1 {
-  width: 620px;
+  width: 697px;
   height: 52px;
   margin: 50px auto 75px;
-  background:  url('../img/logo1.png') no-repeat center;
+  background:  url('../img/logo11.png') no-repeat center;
   background-size: contain;
 }
 .logo2 {
-  background:  url('../img/logo2.png') no-repeat center;
+  width: 697px;
+  background: url('../img/logo2.png') no-repeat center;
 }
 .logo3 {
   height: 102px;
