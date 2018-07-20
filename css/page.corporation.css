@@ -92,8 +92,8 @@
   background-size: 20px 20px;
 }
 .connection {
-  background:  url('../img/connection.png') no-repeat center;
-  background-size: 611px 80px;
+  background:  url('../img/connection1.png') no-repeat center;
+  /*background-size: 691px 80px;*/
 }
 .connect-main {
   width: 1200px;
