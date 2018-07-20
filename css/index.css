@@ -25,10 +25,11 @@ a {
 .page2 {
   background: url('../img/bg33.png') no-repeat center;
   /*background-size: 100% 100%;*/
+  height: 80%;
 }
 
 .page3 {
-  background: #001429;
+  background: url('../img/b2.png') no-repeat center;
   padding-bottom: 130px;
   padding-top: 100px;
 }
@@ -42,8 +43,7 @@ a {
 }
 
 body, html {
-  height: 100%;
-  /*overflow: hidden;*/
+  /*height: 100%;*/
 }
 
 .dian {
